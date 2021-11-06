@@ -1,5 +1,5 @@
 import faker from 'faker';
-export class Company {
+class Company {
   companyName:string;
   catchPharse: string;
   location: {
@@ -16,3 +16,5 @@ export class Company {
     }
   }
 }
+
+export {Company};

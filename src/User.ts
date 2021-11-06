@@ -1,6 +1,6 @@
 import faker from 'faker'
 
-export class User {
+class User {
   name: string;
   location: {
     lat: number;
@@ -15,3 +15,4 @@ export class User {
     }
   }
 }
+export {User};
