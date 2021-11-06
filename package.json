@@ -10,13 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/carryex/maps.git"
   },
-  "author": "",
+  "author": "Daniil Pokinsokha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/carryex/maps/issues"
   },
   "homepage": "https://github.com/carryex/maps#readme",
   "dependencies": {
+    "faker": "^5.5.3",
     "parcel": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.9"
   }
 }
