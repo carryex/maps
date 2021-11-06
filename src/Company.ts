@@ -13,8 +13,8 @@ class Company {
     this.location = {
       lat: parseFloat(faker.address.latitude()),
       lng: parseFloat(faker.address.longitude()),
-    }
+    };
   }
 }
 
-export {Company};
+export {Company}
